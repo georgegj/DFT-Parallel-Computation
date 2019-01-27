@@ -25,6 +25,6 @@ Instructions to run
 
 eg:
 
-./p31 forward Tower256.txt Output256.txt
+./p31 reverse Tower256.txt Output256.txt
 
-./p32 reverse InputFile.txt OutFile.txt
+mpirun -np 8 ./p32 forward InputFile.txt OutputFile.txt
